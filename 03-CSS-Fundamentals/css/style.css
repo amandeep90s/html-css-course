@@ -1,3 +1,5 @@
+/* CSS Comment */
+
 h1,
 h2,
 h3,
@@ -38,10 +40,20 @@ li {
   font-size: 20px;
 }
 
-footer p {
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
   font-size: 16px;
 }
 
-article header p {
-  font-style: italic;
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
 }
