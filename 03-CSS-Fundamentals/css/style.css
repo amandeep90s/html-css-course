@@ -76,3 +76,23 @@ aside {
 body {
   background-color: oldlace;
 }
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  color: #1098ad;
+}
+
+li:nth-child(odd) {
+  color: gold;
+}
+
+li:nth-child(even) {
+  background-color: #f7f7f7;
+}
