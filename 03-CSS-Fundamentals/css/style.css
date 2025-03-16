@@ -1,7 +1,39 @@
 /* CSS Comment */
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   color: #444;
   font-family: sans-serif;
+  border-top: solid 5px #1098ad;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+
+nav {
+  font-size: 18px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+  margin-bottom: 30px;
+}
+
+.post-header {
+  margin-bottom: 40px;
 }
 
 h1,
@@ -18,25 +50,37 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 #author {
@@ -57,29 +101,16 @@ li {
   list-style: none;
 }
 
-.main-header {
-  background-color: #f7f7f7;
-}
-
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-}
-
-body {
-  background-color: oldlace;
-}
-
 li:first-child {
   font-weight: bold;
 }
 
 li:last-child {
   font-style: italic;
+  margin-bottom: 0;
 }
 
-li:nth-child(2) {
+/* li:nth-child(2) {
   color: #1098ad;
 }
 
@@ -88,8 +119,7 @@ li:nth-child(odd) {
 }
 
 li:nth-child(even) {
-  background-color: #f7f7f7;
-}
+} */
 
 /* Styling links */
 a:link {
