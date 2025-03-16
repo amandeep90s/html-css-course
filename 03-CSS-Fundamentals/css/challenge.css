@@ -19,6 +19,18 @@ h3 {
 
 article {
   border: 5px solid black;
+  position: relative;
+}
+
+.sale {
+  position: absolute;
+  top: -20px;
+  left: -35px;
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .post-title {
@@ -85,4 +97,39 @@ article {
 
 .details-list li:last-child {
   margin-bottom: 0;
+}
+
+.colors {
+  margin-bottom: 20px;
+}
+
+.color {
+  height: 20px;
+  width: 20px;
+  background-color: green;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.color:last-child {
+  margin-right: 0;
+}
+
+.info {
+  background-color: rgb(21, 198, 214);
+}
+.danger {
+  background-color: rgb(245, 2, 2);
+}
+.success {
+  background-color: rgb(44, 206, 68);
+}
+.dark {
+  background-color: rgb(8, 8, 8);
+}
+.secondary {
+  background-color: rgb(219, 175, 17);
+}
+.primary {
+  background-color: rgb(36, 17, 205);
 }
