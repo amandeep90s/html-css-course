@@ -96,3 +96,26 @@ li:nth-child(odd) {
 li:nth-child(even) {
   background-color: #f7f7f7;
 }
+
+/* Styling links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: #000;
+  font-style: italic;
+}
+
+/* LVHA same order */
