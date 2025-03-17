@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  width: 850px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -28,9 +28,16 @@ body {
 nav {
   font-size: 18px;
 }
+.row {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+  align-items: flex-start;
+}
 
 article {
-  margin-bottom: 60px;
+  margin-bottom: 0;
+  flex: 1;
 }
 
 aside {
@@ -39,6 +46,7 @@ aside {
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
   margin-bottom: 30px;
+  flex: 0 0 300px;
 }
 
 .post-header {
@@ -104,6 +112,7 @@ li {
 
 .related {
   list-style: none;
+  margin-left: 15px;
 }
 
 li:first-child {
