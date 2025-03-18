@@ -49,7 +49,7 @@ article {
 }
 
 .product-info {
-  padding: 20px;
+  padding: 20px 20px 0;
 }
 
 .price-info {
@@ -59,7 +59,7 @@ article {
 }
 
 .product-details {
-  padding: 20px;
+  padding: 20px 20px 0;
 }
 
 .price {
@@ -151,4 +151,17 @@ article {
 }
 .primary {
   background-color: rgb(36, 17, 205);
+}
+
+article {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+}
+
+.post-title {
+  grid-column: 1 / span 4;
+}
+
+.add-to-cart {
+  grid-column: 1 / span 4;
 }
