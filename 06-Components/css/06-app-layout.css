@@ -25,7 +25,6 @@ body {
 }
 
 nav,
-menu,
 section,
 aside,
 main {
@@ -40,12 +39,45 @@ nav {
 
 menu {
 	background-color: #7048e8;
-	color: #000;
 	grid-column: 2 / -1;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 0 40px;
+}
+
+button {
+	background-color: #5f3dc4;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 8px 12px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+button:last-child {
+	margin-left: auto;
+	background-color: #d6336c;
 }
 
 section {
 	background-color: #e9ecef;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	overflow-y: scroll;
+}
+
+.email {
+	background-color: #adb5bd;
+	height: 96px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
 }
 
 aside {
