@@ -22,8 +22,16 @@ html {
 	width: 1200px;
 }
 
+.w-50 {
+	width: 50%;
+}
+
 header {
 	height: 100vh;
+	position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../hero.jpg);
+	background-size: cover;
+	color: #fff;
 }
 
 nav {
@@ -31,11 +39,23 @@ nav {
 	justify-content: space-between;
 	font-weight: 700;
 	font-size: 20px;
+	padding-top: 32px;
+}
+
+.header-container {
+	width: 1200px;
+	position: absolute;
+	/* In relation to parent size */
+	left: 50%;
+	top: 50%;
+	/* In relation to element size */
+	transform: translate(-50%, -50%);
 }
 
 h1 {
 	font-size: 52px;
 	margin-bottom: 32px;
+	line-height: 1.05;
 }
 
 h2 {
