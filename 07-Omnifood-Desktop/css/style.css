@@ -372,8 +372,8 @@
 .pricing-plan--complete::after {
 	content: "Best Value";
 	position: absolute;
-	top: 9%;
-	right: -20%;
+	top: 6%;
+	right: -19%;
 	text-transform: uppercase;
 	font-size: 1.4rem;
 	font-weight: 700;
