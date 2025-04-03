@@ -1,5 +1,15 @@
+// This is the JavaScript code for the Omnifood website
+// 1. Set current year in copyright
 const yearEl = document.querySelector(".year");
 yearEl.textContent = new Date().getFullYear();
+
+// 2. Make mobile navigation work
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+
+btnNavEl.addEventListener("click", function () {
+	headerEl.classList.toggle("nav-open");
+});
 
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
